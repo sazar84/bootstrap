@@ -1,0 +1,176 @@
+.bg-dark {
+  background-color: #575b5f !important;
+}
+.navbar-nav {
+  color: rgba(255,255,255,.5);
+  text-transform: uppercase; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 4;
+}
+.svg {
+  opacity: .5;
+}
+.svg:hover {
+  opacity: .8;
+}
+@media screen and (max-width: 770px){
+  .navbar-nav p{
+    display: none !important;
+  }
+  .navbar-nav a{
+    line-height: 1.5 !important;
+  }
+  .navbar-brand img{
+    display: none !important;
+  }
+
+}
+.navbar-nav nav p{
+  padding: 0 0.625rem 0 0.8125rem;
+}
+.navbar-nav ul {
+  padding-left: 24rem;
+}
+
+.hero {
+  height: 48.125rem;
+  background-color: #999999;
+  color: #fff;
+}
+.hero p:nth-child(1) {
+  font-family: 'Lobster Two', cursive;
+  margin: 0;
+  font-size: 5.3125rem;
+  text-transform: none;  
+  text-align: center;
+  padding-top: 9.125rem;
+  line-height: 1;
+}
+.hero p:nth-child(2) {
+  font-family: 'Lobster Two', cursive;
+  font-size: 5.3125rem;
+  margin: 0;
+  line-height: 1;
+  text-align: center;
+}
+.hero p:nth-child(3) {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  text-transform: none;  
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+.hero p:nth-child(4) {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  text-transform: none;  
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+.btn1 {
+  background-color: #151d25;
+  margin-top: 4.5625rem;
+  width: 10.375rem;
+  height: 2.5rem;
+}
+.white {
+  height: 15.25rem;
+  background-color: #fff;
+}
+.card_container {
+  height: 28.125rem;
+  margin-top: -21.5rem;
+}
+.right p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9375rem;
+  text-transform: none;  
+  margin: 0;
+  line-height: 2;
+  text-align: left;
+  color: #b3c1b8;
+}
+.right p:nth-child(1){
+  font-family: 'Lobster Two', cursive;
+  font-size: 2.1875rem;
+  text-transform: none;  
+  margin: 0;
+  padding-top: 3.4375rem;
+  line-height: 1;
+  text-align: center;
+  color: #28374b;
+}
+.btn2 {
+  background-color: #27364a;
+  margin-top: 3.5rem;
+  width: 10.375rem;
+  height: 2.5rem;
+}
+.quote {
+  height: 30rem;
+  background-color: #999999;
+  margin-top: -6.25rem;
+}
+.quote p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  text-transform: none;  
+  margin: 0;
+  padding-top: 10.5rem;
+  line-height: 1;
+  letter-spacing: 0.25rem;
+  text-align: center;
+  color: #fff;
+}
+.quote p:nth-child(2) {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.25rem;
+  text-transform: none;  
+  margin: 0;
+  padding-top: 0;
+  line-height: 4;
+  text-align: center;
+  color: #fff;
+}
+.menu {
+  /* height: 67.25rem; */
+  background-color: #fff;
+  text-transform: none; 
+}
+.menu  p:nth-child(1){
+  color: #28374b;
+  font-family: 'Lobster Two', cursive;
+  text-transform: none;  
+  padding-top: 4.25rem;
+  font-size: 2.1875rem;
+  line-height: 1;
+}
+.card-title {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.4625rem;
+  color: #fff;
+}
+.card-text {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 0.7875rem !important;
+  line-height: 1.8 !important;
+  color: #fff !important;
+}
+.card-text:last-child {
+  font-family: 'Lobster Two', cursive !important;
+  font-size: 1.4625rem !important;
+  color: #fff !important;
+}
+.bg-secondary {
+  background-color: #9fb0a5 !important;
+}
+.bg-light {
+  background-color: #cccccc !important;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
